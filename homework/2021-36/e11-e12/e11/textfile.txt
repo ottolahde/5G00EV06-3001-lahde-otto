@@ -1,0 +1,8 @@
+Jokaiselle tutkinto-ohjelmalle on laadittu opetussuunnitelma eli OPS, jonka löydät osoitteesta http://opinto-opas-ops.tamk.fi/.
+OPSista näet tutkinto-ohjelmasi rakenteen. Esimerkiksi AMK-tutkinto koostuu tutkinto-ohjelman omista pakollisista ja valinnaisista perus- ja ammattiopinnoista tietyllä opintosuunnalla
+(myös termejä vaihtoehtoiset ammattiopinnot tai suuntautumiset käytetään), harjoittelusta, opinnäytetyöstä sekä vapaasti valittavista opinnoista.
+
+Klikkaamalla OPSista opintojakson nimeä pääset lukemaan mm. opintojakson osaamistavoitteista, sisällöistä ja arviointikriteereistä.
+Opintojaksolla voi olla useita toteutuksia eli samansisältöisiä kursseja, jotka toteutetaan eri ajankohtina ja jotka on tarkoitettu eri ryhmille.
+Kunkin opintojakson toteutuksen toteutussuunnitelmasta löydät tietoa mm. ilmoittautumisajasta, opintojen ajankohdasta, opiskelumuodoista, arvioinnista ja kirjallisuudesta.
+Tarvitset näitä tietoja suunnitellessasi opintoja ja myös mahdollisesti miettiessäsi hyväksilukua aikaisempien opintojen tai aiemmin hankitun osaamisen perusteella.

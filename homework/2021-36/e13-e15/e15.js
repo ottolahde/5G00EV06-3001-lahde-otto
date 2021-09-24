@@ -1,5 +1,5 @@
-function makeAdder(){
-
+function makeAdder(_number){
+    console.log()
 }
 
 var add5 = makeAdder(5);
