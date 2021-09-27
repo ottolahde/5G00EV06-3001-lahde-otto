@@ -36,8 +36,18 @@ fs.readFile(fileName, "utf8", (err, data) => {
           `file ${fileName} contains valid json but not property name`
         );
       }
-    } else {
-      console.log(`file ${fileName} does not contain json`);
+    } 
+    else {
+      console.log(
+        fs.readFile(fileName, 'utf8' , (err, data) => {
+          if (err) {
+            console.error(err)
+            return
+          }
+          console.log(data)
+        })
+
+      );
     }
 });
 
