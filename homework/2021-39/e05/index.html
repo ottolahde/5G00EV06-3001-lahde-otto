@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+
+    <meta charset="UTF-8" />
+    <style media="screen"></style>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+      const Col = (cols) => {
+        var columns = [];
+        for (let i = 0; i < cols; i++) {
+          let temp = "<td>" + RandomImage() + "</td>";
+          columns.push(temp);
+        }
+        //console.log(columns);
+        return columns;
+      };
+
+      const Row = (inputRows, columns) => {
+        var rows = [];
+        
+        for (let i in inputRows) {
+          let temp = "<tr>";
+
+          for (let j in columns) {
+            temp += columns[j];
+            console.log(columns)
+          }
+          
+          temp = temp + "</tr>";
+          rows.push(temp);
+        }
+        //console.log(rows);
+        return rows;
+      };
+
+      const RandomImage = (properties) => {
+        //console.log(properties); // outputting
+        return '<img src="https://picsum.photos/200" width="200" height="200">';
+      };
+
+      const Table = (properties) => {
+        //console.log("properties"); // outputting
+        console.log(Row(Col(properties.cols), properties.rows));
+
+        return <a href={properties.link}>{properties.text}</a>;
+      };
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      ReactDOM.render(
+        <Table rows={4} cols={4} />,
+        document.getElementById("root")
+      );
+    </script>
+
+    <script></script>
+  </body>
+</html>
